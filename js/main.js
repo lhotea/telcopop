@@ -1,15 +1,12 @@
 var game = new game();
-var max = 14;
+var max = 10;
 var logos_lgi = ["chellomedia",
 "Horizon",
-"kabeldg",
 "kbw",
 "liberty-global-blume-3",
 "telenet",
 "unitymediakbw",
 "upc",
-"upc1",
-"upc2",
 "upccablecom",
 "virgin",
 "vtr",
@@ -21,16 +18,17 @@ var logos_others = [
 "emobile",
 "entel",
 "hetan",
-"telenor",
-"movistar",
-"o2",
-"orange",
 "sky",
 "swisscomm",
 "tele2",
 "telekom",
 "kpn",
-"telekomaustria"
+"kabeldg",
+"telekomaustria",
+"telenor",
+"orange",
+"movistar",
+"o2"
 ];
 
 

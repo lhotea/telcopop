@@ -32,9 +32,26 @@
     <link rel="apple-touch-icon" href="img/bloomIcon.png" />
     <link rel="apple-touch-icon-precomposed" href="img/bloomIcon.png" />      
 
+	<link rel="stylesheet" href="jquery.mobile-1.3.1.css" />
+	<link rel="stylesheet" href="jquery.mobile-1.3.1.css" />
+    <script src="jquery-2.0.0.js"></script>
+    <script src="jquery.mobile-1.3.1.js"></script>
+   
    </head>
   <body>
-    <div id="myGame"></div>
+   <div id="main" data-role="page" data-title="telcopop" data-theme="b" >
+    <div id="header" data-role="header"><h1>Telcopop</h1></div>
+    <div id="myGame" data-role="content"></div>
+	<div id="toolbar" data-role="footer" class="ui-bar">	
+	<div class="ui-grid-b">
+     <div class="ui-block-a"><a href="#" id="play" data-role="button" data-inline="true" >play</a></div>
+     <div class="ui-block-b"><a href="#" id="stop" data-role="button" data-inline="true">stop</a></div>
+     <div class="ui-block-c">
+	  Score:
+	 </div>
+    </div><!-- /grid-b -->
+	<div>
+</div>
     <script src="libraries/kinetic.min.js"></script>
     <script src="js/game.js"></script> 
     <script src="js/main.js"></script> 
